@@ -12,6 +12,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { useState } from 'react';
+import Image from 'next/image';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -25,12 +26,22 @@ export function Header() {
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
+    <header className="sticky top-0 z-50 w-full border-b">
+      <div className="absolute inset-0">
+        <Image
+          src="/storefront.jpg"
+          alt="Ramdev Emporium storefront"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/60" />
+      </div>
+      <div className="container relative flex h-16 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Logo className="h-8 w-8 text-primary" />
-            <span className="hidden font-bold sm:inline-block font-headline">
+            <Logo className="h-8 w-8 text-white" />
+            <span className="hidden font-bold sm:inline-block font-headline text-white">
               Ramdev Emporium
             </span>
           </Link>
@@ -39,7 +50,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="transition-colors hover:text-primary"
+                className="text-white transition-colors hover:text-primary"
               >
                 {link.label}
               </Link>
@@ -51,7 +62,7 @@ export function Header() {
         <div className="md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" className="text-white hover:text-white hover:bg-white/10">
                 <Menu className="h-5 w-5" />
                 <span className="sr-only">Toggle Menu</span>
               </Button>
@@ -79,23 +90,23 @@ export function Header() {
           </Sheet>
         </div>
         <Link href="/" className="md:hidden flex-1 flex justify-center items-center">
-             <Logo className="h-8 w-8 text-primary" />
+             <Logo className="h-8 w-8 text-white" />
         </Link>
 
 
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Button variant="ghost" size="icon">
+          <Button variant="ghost" size="icon" className="text-white hover:text-white hover:bg-white/10">
             <Search className="h-5 w-5" />
             <span className="sr-only">Search</span>
           </Button>
-          <Button variant="ghost" size="icon" asChild>
+          <Button variant="ghost" size="icon" asChild className="text-white hover:text-white hover:bg-white/10">
             <Link href="/account">
               <User className="h-5 w-5" />
               <span className="sr-only">Account</span>
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="/cart" className="relative">
+            <Link href="/cart" className="relative text-white hover:text-white hover:bg-white/10">
               <ShoppingCart className="h-5 w-5" />
               {totalItems > 0 && (
                 <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">
