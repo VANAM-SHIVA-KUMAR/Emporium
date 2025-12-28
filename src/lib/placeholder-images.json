@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A well-lit modern living room showcasing various lighting fixtures.",
-      "imageUrl": "https://images.unsplash.com/photo-1600210492493-0946911123ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2Rlcm4lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjY4ODgyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern interior"
+      "description": "Ramdev Emporium storefront",
+      "imageUrl": "https://storage.googleapis.com/res-a-t-storage/studio-bots-sessions-prod/v1%2Fbots%2Fuser_input_2_1725350325458",
+      "imageHint": "storefront"
     },
     {
       "id": "category-led",
