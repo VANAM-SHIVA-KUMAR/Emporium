@@ -70,7 +70,7 @@ export default function AccountPage() {
                                         <TableCell className="font-medium">{order.id}</TableCell>
                                         <TableCell>{order.date}</TableCell>
                                         <TableCell>{order.status}</TableCell>
-                                        <TableCell className="text-right">₹{order.total.toLocaleString()}</TableCell>
+                                        <TableCell className="text-right">INR {order.total.toLocaleString()}</TableCell>
                                     </TableRow>
                                 ))}
                             </TableBody>

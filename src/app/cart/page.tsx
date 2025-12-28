@@ -47,7 +47,7 @@ export default function CartPage() {
                             </div>
                             <div className="flex-grow">
                                 <Link href={`/products/${item.product.id}`} className="font-semibold hover:text-primary">{item.product.name}</Link>
-                                <p className="text-sm text-muted-foreground">₹{item.product.price.toLocaleString()}</p>
+                                <p className="text-sm text-muted-foreground">INR {item.product.price.toLocaleString()}</p>
                             </div>
                             <div className="flex items-center gap-2">
                                 <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(item.product.id, item.quantity - 1)}>-</Button>
@@ -59,7 +59,7 @@ export default function CartPage() {
                                 />
                                 <Button variant="outline" size="icon" className="h-8 w-8" onClick={() => updateQuantity(item.product.id, item.quantity + 1)}>+</Button>
                             </div>
-                            <p className="w-24 text-right font-semibold">₹{(item.product.price * item.quantity).toLocaleString()}</p>
+                            <p className="w-24 text-right font-semibold">INR {(item.product.price * item.quantity).toLocaleString()}</p>
                             <Button variant="ghost" size="icon" onClick={() => removeFromCart(item.product.id)}>
                                 <Trash2 className="h-4 w-4 text-muted-foreground" />
                             </Button>
@@ -74,7 +74,7 @@ export default function CartPage() {
                 <div className="space-y-2">
                     <div className="flex justify-between">
                         <span className="text-muted-foreground">Subtotal</span>
-                        <span>₹{subtotal.toLocaleString()}</span>
+                        <span>INR {subtotal.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between">
                         <span className="text-muted-foreground">Shipping</span>
@@ -88,7 +88,7 @@ export default function CartPage() {
                 <Separator className="my-4" />
                 <div className="flex justify-between font-bold text-lg">
                     <span>Total</span>
-                    <span>₹{subtotal.toLocaleString()}</span>
+                    <span>INR {subtotal.toLocaleString()}</span>
                 </div>
                  <Button size="lg" className="w-full mt-6 bg-accent text-accent-foreground hover:bg-accent/90" asChild>
                     <Link href="/checkout">Proceed to Checkout</Link>

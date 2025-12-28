@@ -96,7 +96,7 @@ export default function CheckoutPage() {
                                     <div className="flex-grow">
                                         <p className="font-semibold text-sm">{item.product.name}</p>
                                     </div>
-                                    <p className="text-sm">₹{(item.product.price * item.quantity).toLocaleString()}</p>
+                                    <p className="text-sm">INR {(item.product.price * item.quantity).toLocaleString()}</p>
                                 </div>
                             )})}
                         </div>
@@ -104,7 +104,7 @@ export default function CheckoutPage() {
                         <div className="space-y-2">
                             <div className="flex justify-between text-sm">
                                 <span className="text-muted-foreground">Subtotal</span>
-                                <span>₹{subtotal.toLocaleString()}</span>
+                                <span>INR {subtotal.toLocaleString()}</span>
                             </div>
                             <div className="flex justify-between text-sm">
                                 <span className="text-muted-foreground">Shipping</span>
@@ -113,7 +113,7 @@ export default function CheckoutPage() {
                             <Separator className="my-2"/>
                             <div className="flex justify-between font-bold text-lg">
                                 <span>Total</span>
-                                <span>₹{subtotal.toLocaleString()}</span>
+                                <span>INR {subtotal.toLocaleString()}</span>
                             </div>
                         </div>
                         <Button size="lg" className="w-full mt-6 bg-accent text-accent-foreground hover:bg-accent/90" onClick={handlePlaceOrder}>

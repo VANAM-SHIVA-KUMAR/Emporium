@@ -47,7 +47,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       </Link>
       <CardFooter className="p-4 pt-0 flex justify-between items-center">
         <p className="text-lg font-semibold font-body">
-          ₹{product.price.toLocaleString()}
+          INR {product.price.toLocaleString()}
         </p>
         <Button size="sm" onClick={() => addToCart(product)} className="bg-primary hover:bg-primary/90">
           <ShoppingCart className="mr-2 h-4 w-4" />

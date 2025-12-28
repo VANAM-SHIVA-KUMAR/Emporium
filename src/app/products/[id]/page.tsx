@@ -109,7 +109,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
                         )}
                     </div>
                     
-                    <p className="text-3xl font-bold font-body my-4">₹{product.price.toLocaleString()}</p>
+                    <p className="text-3xl font-bold font-body my-4">INR {product.price.toLocaleString()}</p>
                     
                     <p className="text-base text-foreground/80 leading-relaxed">{product.description}</p>
                     
