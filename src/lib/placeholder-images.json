@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A well-lit modern living room showcasing various lighting fixtures.",
+      "imageUrl": "https://images.unsplash.com/photo-1600210492493-0946911123ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2Rlcm4lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjY4ODgyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern interior"
+    },
+    {
+      "id": "category-led",
+      "description": "Close-up of modern LED strip lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1674060319664-24016922ea28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8TEVEJTIwbGlnaHRpbmd8ZW58MHx8fHwxNzY2ODkzOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "LED lighting"
+    },
+    {
+      "id": "category-chandelier",
+      "description": "An elegant crystal chandelier in a luxurious room.",
+      "imageUrl": "https://images.unsplash.com/photo-1646764209478-f2fe29b1a4f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcnlzdGFsJTIwY2hhbmRlbGllcnxlbnwwfHx8fDE3NjY4OTI3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crystal chandelier"
+    },
+    {
+      "id": "category-decorative",
+      "description": "Artistic and decorative table lamps.",
+      "imageUrl": "https://images.unsplash.com/photo-1551380701-5dd33d5b5d06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGFibGUlMjBsYW1wfGVufDB8fHx8MTc2NjgzNzk1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "table lamp"
+    },
+    {
+      "id": "contact-map",
+      "description": "A map showing the location of Khammam.",
+      "imageUrl": "https://images.unsplash.com/photo-1603466183710-70b84997a93f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2Njg2NzM0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    },
+    {
+      "id": "prod-havells-led-1",
+      "description": "Havells 12W LED Bulb",
+      "imageUrl": "https://images.unsplash.com/photo-1532007271951-c487760934ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxMRUQlMjBidWxifGVufDB8fHx8MTc2Njg5Mjc0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "LED bulb"
+    },
+    {
+      "id": "prod-havells-led-2",
+      "description": "Side view of Havells 12W LED Bulb",
+      "imageUrl": "https://images.unsplash.com/photo-1573621622238-f7ac6ac0429a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaWdodCUyMGJ1bGJ8ZW58MHx8fHwxNzY2ODkzOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "light bulb"
+    },
+    {
+      "id": "prod-wipro-panel-1",
+      "description": "Wipro 15W LED Panel Light",
+      "imageUrl": "https://images.unsplash.com/photo-1674849665344-944d468883d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZWlsaW5nJTIwbGlnaHR8ZW58MHx8fHwxNzY2ODkzOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceiling light"
+    },
+    {
+      "id": "prod-syska-strip-1",
+      "description": "Syska 5m LED Strip Light roll",
+      "imageUrl": "https://images.unsplash.com/photo-1659066019874-7a15628cea60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxMRUQlMjBzdHJpcHxlbnwwfHx8fDE3NjY4OTI3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "LED strip"
+    },
+    {
+      "id": "prod-crompton-downlight-1",
+      "description": "Crompton Greaves 9W LED Downlight",
+      "imageUrl": "https://images.unsplash.com/photo-1605872223063-d4a16a2c3ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb3dubGlnaHQlMjBmaXh0dXJlfGVufDB8fHx8MTc2Njg0MTgwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "downlight fixture"
+    },
+    {
+      "id": "prod-tisva-chandelier-1",
+      "description": "Tisva Elara 5-Light Chandelier",
+      "imageUrl": "https://images.unsplash.com/photo-1724413350247-9644b2b182f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBjaGFuZGVsaWVyfGVufDB8fHx8MTc2Njg5Mzk0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern chandelier"
+    },
+    {
+      "id": "prod-tisva-chandelier-2",
+      "description": "Close up of Tisva Elara Chandelier crystal",
+      "imageUrl": "https://images.unsplash.com/photo-1711288396173-53f012a8e177?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjcnlzdGFsJTIwZGV0YWlsfGVufDB8fHx8MTc2Njg5Mzk0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crystal detail"
+    },
+    {
+      "id": "prod-decorative-lamp-1",
+      "description": "Modern geometric table lamp",
+      "imageUrl": "https://images.unsplash.com/photo-1523380262778-076eb862d38f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzayUyMGxhbXB8ZW58MHx8fHwxNzY2ODUyNzQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk lamp"
+    },
+    {
+      "id": "prod-vintage-bulb-1",
+      "description": "Vintage Edison style filament bulb",
+      "imageUrl": "https://images.unsplash.com/photo-1701713707927-05f60849d2bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxFZGlzb24lMjBidWxifGVufDB8fHx8MTc2Njg5Mzk0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Edison bulb"
+    },
+    {
+      "id": "prod-outdoor-light-1",
+      "description": "Weatherproof outdoor wall lantern",
+      "imageUrl": "https://images.unsplash.com/photo-1759830350427-80a1d662fd59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvdXRkb29yJTIwbGlnaHR8ZW58MHx8fHwxNzY2ODkzOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "outdoor light"
+    },
+    {
+      "id": "prod-study-lamp-1",
+      "description": "Adjustable gooseneck study lamp",
+      "imageUrl": "https://images.unsplash.com/photo-1764096534686-68091ce5ab45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdHVkeSUyMGxhbXB8ZW58MHx8fHwxNzY2ODkzOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "study lamp"
+    },
+    {
+      "id": "prod-crystal-chandelier-1",
+      "description": "Large crystal chandelier for halls",
+      "imageUrl": "https://images.unsplash.com/photo-1667029780049-b0d912b18ad4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmFuZCUyMGNoYW5kZWxpZXJ8ZW58MHx8fHwxNzY2ODkzOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grand chandelier"
+    },
+    {
+      "id": "prod-motion-sensor-light-1",
+      "description": "Motion sensor activated LED light",
+      "imageUrl": "https://images.unsplash.com/photo-1703486501121-5d3d1dd1aa30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzZW5zb3IlMjBsaWdodHxlbnwwfHx8fDE3NjY4OTM5NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sensor light"
+    },
+    {
+      "id": "prod-fancy-light-1",
+      "description": "Fancy hanging pendant light",
+      "imageUrl": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZW5kYW50JTIwbGlnaHR8ZW58MHx8fHwxNzY2ODA5NTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pendant light"
+    }
+  ]
 }
