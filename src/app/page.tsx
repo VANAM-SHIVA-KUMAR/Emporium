@@ -65,6 +65,28 @@ export default function Home() {
           </Button>
         </div>
       </section>
+      
+      {/* About Us Section */}
+      <section className="py-12 md:py-20 bg-secondary/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">
+              Ramdev Emporium in Station Road, Khammam
+            </h2>
+            <p className="text-muted-foreground mb-6">
+              Ramdev Emporium in Khammam is one of the leading businesses in the LED Light Dealers. Also known for Lighting Dealers, Lampshade Dealers-LeArc Designer Lighting, Lampshade Dealers, Chandeller Light Dealers, Decorative Light Dealers, LED Light Dealers-Jaquar, LED Fancy Light Dealers, Lampshade Dealers-GLAMOROUS and much more. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Ramdev Emporium, Khammam.
+            </p>
+            <h3 className="font-headline text-2xl font-semibold mb-3">Location and Overview:</h3>
+            <p className="text-muted-foreground mb-6">
+              Established in the year 2002, Ramdev Emporium in Station Road, Khammam is a top player in the category LED Light Dealers in the Khammam. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Khammam. Over the course of its journey, this business has established a firm foothold in it's industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company, in the near future, this business aims to expand its line of products and services and cater to a larger client base. in Khammam, this establishment occupies a prominent location in Station Road. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is at Azeez Street, Rana Sweets Line, which makes it easy for first-time visitors in locating this establishment it is known to provide top service in the following categories: Lighting Dealers, Lampshade Dealers-LeArc Designer Lighting, Lampshade Dealers, Chandelier Light Dealers, Decorative Light Dealers, LED Light Dealers-Jaquar, LED Fancy light Dealers, Lampshade Dealers-GLAMOROUS
+            </p>
+            <h3 className="font-headline text-2xl font-semibold mb-3">Products and Services offered:</h3>
+            <p className="text-muted-foreground">
+              Ramdev Emporium in Station Road has a wide range of products and / or services to cater to the varied requirements of their customers. The staff at this establishment are courteous and prompt at providing any assistance. They readily answer any queries or questions that you may have. Pay for the product or service with ease by using any of the available modes of payment, such as UP Cash This establishment is functional from 09:00-21:30.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Categories Section */}
       <section className="py-12 md:py-20 bg-background">

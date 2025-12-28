@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "Ramdev Emporium storefront",
-      "imageUrl": "https://images.unsplash.com/photo-1490122560550-d5ce9f8211e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdG9yZWZyb250fGVufDB8fHx8MTc2Njg5NTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Storefront.png",
       "imageHint": "storefront"
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": "category-chandelier",
       "description": "An elegant crystal chandelier in a luxurious room.",
-      "imageUrl": "https://images.unsplash.com/photo-1646764209478-f2fe29b1a4f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcnlzdGFsJTIwY2hhbmRlbGllcnxlbnwwfHx8fDE3NjY4OTI3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/chandelier.jpeg",
       "imageHint": "crystal chandelier"
     },
     {
